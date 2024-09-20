@@ -4,6 +4,26 @@
   переключая тему
 */
 
+:root .theme_dark {
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color:#FF0070;
+  --accent-color-text: #000028;
+  --heading-color: #DB00FF;
+  --bg-image: url('../images/cover-image-dark.png');
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme_auto {
+    --bg-color: #000028;
+    --text-color: #F1B2CE;
+    --accent-color :#FF0070;
+    --accent-color-text: #000028;
+    --heading-color: #DB00FF;
+    --bg-image: url('../images/cover-image-dark.png');
+  }
+}
+
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,

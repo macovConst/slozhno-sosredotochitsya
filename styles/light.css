@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root .theme_light{
+:root .theme_light {
   --bg-color: #FFF1F7;
   --text-color: #353430;
   --accent-color:#FF8DCB;

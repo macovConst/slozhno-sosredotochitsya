@@ -22,6 +22,14 @@
     --heading-color: #FFC2E6;
     --bg-image: url('../images/cover-image-light.png');
   }
+  .theme_auto .rec {
+    display: none;
+  }
+  .theme_auto .decorated-zone::after,
+  .theme_auto .decorated-zone::before,
+  .theme_auto .header__theme-menu {
+  --accent-color:#353430;
+  }
 }
 
 .page.theme_light {
